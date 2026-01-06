@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.source_files = 'SVGAPlayer_Optimized/*.{h,m,swift}'
   s.public_header_files = 'SVGAPlayer_Optimized/*.h'
   
-  s.dependency 'SVGAPlayer'
+  s.dependency 'SVGAPlayer', :git => 'https://github.com/zhangtong99/SVGAPlayer-iOS.git'
 end
